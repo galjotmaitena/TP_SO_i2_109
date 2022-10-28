@@ -1,0 +1,9 @@
+Galjot Maitena 
+Luna Milagros 
+Ramirez Gudar Ignacio
+
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+	Realizando un "git pull"
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+	Si, realizando un "git pull <repositorio forkeado de GAMMA>
