@@ -1,3 +1,82 @@
 Galjot Maitena 
 Luna Milagros 
 Ramirez Gudar Ignacio
+
+GAMMA
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+	Realizando un "git pull"
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+	Si, realizando un "git pull <repositorio forkeado de GAMMA>
+=======
+beta
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+    si, haciendo un pull del repo forkeado de alfa
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+    no se pierden los datos editados por mi
+=======
+Alfa
+e-
+ALFA: Galjot Maitena
+ 48  git clone https://github.com/galjotmaitena/TP_SO_i2_109.git
+49  cd OneDrive/Escritorio/TP_SO_i2_109
+   50  git add .
+  51  git status
+   52 git commit -m "Alfa"
+   53  git push -u origin main
+   54  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   55  cd OneDrive/Escritorio/TP_SO_i2_109
+   56 git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   57  git status
+   58  git add .
+   59  git status
+   60  git fetch https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   61 git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   62  git status
+   63 git push -u origin main
+   64  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   65  cd OneDrive/Escritorio/TP_SO_i2_109
+   66  git fetch https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   67  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+   
+
+BETA: Milagros Luna
+  189  git clone https://github.com/MilagrosLuna/TP_SO_i2_109.git
+  190  cd TP_SO_i2_109
+  191  git status
+  192  git add .
+  193  git commit -m "beta"
+  194  git push -u origin main
+  195  git add .
+  196  git status
+  197  git commit -m "beta2"
+  198  git push -u origin main
+  199  git add.
+  200  git add .
+  201  git commit -m "beta3"
+  202  git push -u origin main
+
+GAMMA: Ramirez Gudar Ignacio
+395  git clone https://github.com/IgnacioRamirezGudar/TP_SO_i2_109.git
+  396  git add *
+  397  git add .
+  398  cd /c/Users/ignac/Desktop/TP_SO_i2_109
+  399  git add .
+  400  git commit -m "FORK DE GAMMA"
+  401  git push -u origin main
+  402  git branch punto5
+  403  git checkout punto5
+  404  git pull
+  405  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git punto5
+  406  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+  407  cd /c/Users/ignac/Desktop/TP_SO_i2_109
+  419  git fetch https://github.com/MilagrosLuna/TP_SO_i2_109.git
+  420  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+  421  git status
+  422  git add .
+  423  git commit -m "Subiendo punto 5"
+  424  git push -u origin main
+  425  git fetch https://github.com/MilagrosLuna/TP_SO_i2_109.git
+  426  git pull https://github.com/MilagrosLuna/TP_SO_i2_109.git
+

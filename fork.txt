@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Maitena Galjot, IP: 192.168.0.89, Hora: 11:55
+=======
+GAMMA - IGNACIO RAMIREZ GUDAR / IP: 192.168.1.36 / HORA: 11:46
+>>>>>>> 9d358fcf2dcb7d83d550024e1fc8fc6c6b38c191
