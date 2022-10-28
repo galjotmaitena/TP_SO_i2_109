@@ -1,3 +1,12 @@
 Galjot Maitena 
 Luna Milagros 
 Ramirez Gudar Ignacio
+
+beta
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+    si, haciendo un pull del repo forkeado de alfa
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+    no se pierden los datos editados por mi
+
